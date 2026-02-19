@@ -1,41 +1,35 @@
-<div align="center">
+# 📊 Classifying Cryptocurrencies by Market Capitalization
 
-# 📊 Cryptocurrency Market Capitalization Analysis
+## 📌 Overview
 
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Repo Size](https://img.shields.io/github/repo-size/M-Divya29/Classifying-Cryptocurrencies-by-Market-Capitalization)
-![Last Commit](https://img.shields.io/github/last-commit/M-Divya29/Classifying-Cryptocurrencies-by-Market-Capitalization)
+This project analyzes cryptocurrency market data and categorizes cryptocurrencies based on their market capitalization.  
+It includes performance analysis using 24-hour and 7-day percentage changes and generates clear visual representations of market trends.
 
-A professional data analysis project exploring cryptocurrency market trends using Python.
-
-</div>
+The implementation is done using Python in Jupyter Notebook / Google Colab.
 
 ---
 
-## 🔍 Project Overview
+## 🎯 Objectives
 
-This project analyzes historical cryptocurrency market data to:
-
-- 📈 Identify Top 10 cryptocurrencies by market capitalization  
-- 🔥 Visualize 24-hour top gainers and losers  
-- 📊 Analyze weekly top performers and decliners  
-- 🏷️ Classify cryptocurrencies into market cap categories  
-
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="50"/>
-</p>
+- Analyze cryptocurrency market capitalization
+- Identify Top 10 cryptocurrencies by market value
+- Evaluate 24-hour and 7-day price changes
+- Classify cryptocurrencies into market cap segments
+- Visualize insights using charts
 
 ---
 
-## 📁 Repository Structure
+## 🛠 Technology Stack
+
+- **Python 3**
+- **Pandas** – Data manipulation and analysis
+- **NumPy** – Numerical operations
+- **Matplotlib** – Data visualization
+- **Jupyter Notebook / Google Colab**
+
+---
+
+## 📂 Project Structure
 
 .
 ├── Classifying_Cryptocurrencies_by_Market_Capitalization.ipynb
@@ -43,49 +37,57 @@ This project analyzes historical cryptocurrency market data to:
 ├── requirements.txt
 ├── README.md
 └── images/
+├── fig1_marketcap.jpeg
+├── fig2_24h.png
+├── fig3_weekly.png
+└── fig4_classification.png
 
 
 ---
 
-## 📊 Screenshots
+## 📊 Key Visualizations
 
-### 🔹 Top 10 Market Capitalization
-![Top 10 Market Cap](images/fig1_marketcap.png)
+### 1️⃣ Top 10 Cryptocurrencies by Market Capitalization
+![Top 10 Market Cap](images/fig1_marketcap.jpeg)
 
-### 🔹 24-Hour Top Gainers & Losers
+### 2️⃣ 24-Hour Top Gainers and Losers
 ![24h Volatility](images/fig2_24h.png)
 
-### 🔹 Weekly Top Performers
+### 3️⃣ Weekly Performance Analysis
 ![Weekly Volatility](images/fig3_weekly.png)
 
-### 🔹 Market Cap Classification
+### 4️⃣ Market Capitalization Classification
 ![Market Classification](images/fig4_classification.png)
 
 ---
 
-## 📦 Installation
+## ▶️ Setup & Execution
 
-Clone the repository:
+### Step 1: Clone the Repository
 
 git clone https://github.com/M-Divya29/Classifying-Cryptocurrencies-by-Market-Capitalization.git
 
 
-Install dependencies:
+### Step 2: Install Dependencies
 
 
-Run the notebook in Jupyter or Google Colab.
+### Step 3: Run the Notebook
+Open the `.ipynb` file in:
+- Jupyter Notebook, or  
+- Google Colab  
+
+Run all cells to reproduce the analysis.
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates structured data analysis, categorization logic, and visualization techniques using Python. It provides a clear overview of cryptocurrency market behavior based on capitalization and short-term price movements.
 
 ---
 
 ## 👩‍💻 Author
 
 **M. Divya Lalitha**  
-GitHub: https://github.com/M-Divya29  
+GitHub: https://github.com/M-Divya29
 
----
-
-<div align="center">
-
-⭐ If you found this project useful, consider giving it a star!
-
-</div>
