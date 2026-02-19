@@ -7,40 +7,34 @@
 
 ---
 
-## 📌 Project Overview
-This repository features a comprehensive data analysis of the 2018 cryptocurrency market peak. The project focuses on wealth distribution (Market Cap), volatility trends (24h/7d), and asset tiering to provide a granular view of market dynamics during high-speculation periods.
+## 🎯 Project Objectives
+*   **Wealth Distribution**: Quantify the market dominance of the top 10 cryptocurrencies.
+*   **Volatility Profiling**: Compare short-term (24h) and mid-term (7d) price fluctuations to identify market risk.
+*   **Asset Tiering**: Segment assets into scale-based categories (Biggish, Micro, Nano) for structural analysis.
+*   **Data Visualization**: Transform raw historical data into actionable visual insights using Matplotlib and Streamlit.
 
 ## 🛠️ Technology Stack & Tools
 
 | Category | Technologies |
 | :--- | :--- |
 | **Core Language** | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| **Data Analysis** | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) |
+| **Data Analysis** | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) |
 | **Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) |
 | **Deployment** | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) |
-| **Environment** | ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white) |
 
-## 🚀 Setup & Execution
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/M-Divya29/Classifying-Cryptocurrencies-by-Market-Capitalization.git
-cd Classifying-Cryptocurrencies-by-Market-Capitalization
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Dashboard
-```bash
-streamlit run app.py
-```
-
-### 4. Run Standalone Analysis
-```bash
-python analysis.py
+## 📂 Project Structure
+```text
+.
+├── app.py                      # Interactive Streamlit dashboard
+├── analysis.py                 # Standalone Python analysis script
+├── coinmarketcap_06012018.csv  # Historical dataset (Jan 2018)
+├── requirements.txt            # Project dependencies
+├── README.md                   # Documentation
+└── images/                     # Generated analysis plots
+    ├── fig1_marketcap.png
+    ├── fig2_24h.png
+    ├── fig3_weekly.png
+    └── fig4_classification.png
 ```
 
 ## 📈 Analysis Insights
@@ -53,6 +47,16 @@ python analysis.py
 
 ### 3️⃣ Market Segmentation
 ![Classification](images/fig4_classification.png)
+
+## 🚀 Setup & Execution
+```bash
+git clone https://github.com/M-Divya29/Classifying-Cryptocurrencies-by-Market-Capitalization.git
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 📌 Conclusion
+This analysis of the January 2018 market peak reveals a highly concentrated ecosystem where a handful of 'Biggish' coins hold the majority of wealth, while hundreds of 'Nano' coins contribute to extreme market volatility. The project demonstrates the power of Python for financial data cleaning, categorization, and interactive reporting.
 
 ---
 
