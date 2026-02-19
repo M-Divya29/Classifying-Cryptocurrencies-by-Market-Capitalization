@@ -42,4 +42,4 @@ Cryptocurrencies are classified into three distinct categories based on risk and
 ## 👩‍💻 Author
 **M. Divya Lalitha**
 *   **GitHub**: [M-Divya29](https://github.com/M-Divya29)
-*   **LinkedIn**: [M-Divya29](https://github.com/M-Divya29) (Add your link here)
+
