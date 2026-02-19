@@ -2,31 +2,32 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://classifying-cryptocurrencies-by-market-capitalization-bjyn9rn4.streamlit.app/)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
 ## 🔗 Live Dashboard
-**Access the live interactive analysis here:** [https://classifying-cryptocurrencies-by-market-capitalization-bjyn9rn4.streamlit.app/](https://classifying-cryptocurrencies-by-market-capitalization-bjyn9rn4.streamlit.app/)
+[Access the live interactive analysis here](https://classifying-cryptocurrencies-by-market-capitalization-bjyn9rn4.streamlit.app/)
 
 ---
 
-## 📌 Project Overview
-This project provides an in-depth analysis of cryptocurrency market data from the early 2018 peak. It focuses on market capitalization dominance, volatility, and tiered classification of digital assets.
+## 📈 Key Visualizations
 
-## 🛠️ Technology Stack
-*   **Language**: Python
-*   **Libraries**: Pandas, Matplotlib, Streamlit
-*   **Deployment**: Streamlit Community Cloud
+### 1️⃣ Top 10 Market Capitalization
+![Top 10 Market Cap](images/fig1_marketcap.png)
+*Dominance of top 10 assets as a percentage of total market cap.*
 
-## 📈 Analysis Highlights
-1. **Market Capitalization**: Analysis of the top 10 coins and their total market dominance.
-2. **24-Hour Volatility**: Identifies the biggest winners and losers in a single day.
-3. **Weekly Volatility**: Reveals long-term trends over a 7-day period.
-4. **Market Segmentation**: Categorizes coins into 'biggish', 'micro', and 'nano' tiers.
+### 2️⃣ 24-Hour Price Volatility
+![24h Volatility](images/fig2_24h.png)
+*The biggest gainers and losers in a single day cycle.*
+
+### 3️⃣ Weekly Performance Analysis
+![Weekly Volatility](images/fig3_weekly.png)
+*Market trends observed over a 7-day window.*
+
+### 4️⃣ Market Cap Classification
+![Market Classification](images/fig4_classification.png)
+*Segmenting assets into Biggish, Micro, and Nano tiers.*
 
 ---
 
 ## 👩‍💻 Author
 **M. Divya Lalitha**
-*   **GitHub**: [M-Divya29](https://github.com/M-Divya29)
-*   **Project**: Cryptocurrency Market Analysis
+* **GitHub**: [M-Divya29](https://github.com/M-Divya29)
