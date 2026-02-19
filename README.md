@@ -1,9 +1,9 @@
 # 📊 Classifying Cryptocurrencies by Market Capitalization
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crypto-market-analysis-m-divya.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://classifying-cryptocurrencies-by-market-capitalization-bjyn9rn4.streamlit.app/)
 
 ## 🔗 Live Dashboard
-**Access the live interactive analysis here:** [https://crypto-market-analysis-m-divya.streamlit.app/](https://crypto-market-analysis-m-divya.streamlit.app/)
+**Access the live interactive analysis here:** [https://classifying-cryptocurrencies-by-market-capitalization-bjyn9rn4.streamlit.app/](https://classifying-cryptocurrencies-by-market-capitalization-bjyn9rn4.streamlit.app/)
 
 ---
 
